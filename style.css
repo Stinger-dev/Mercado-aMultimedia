@@ -1,0 +1,37 @@
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+#presentacion{
+    width: 100%;
+    margin-bottom: 5em;
+}
+main{
+    background-color: #AC3931;
+    text-wrap: nowrap;
+    height: 100%;
+    color: white;
+}
+html{
+    height: 100%;
+    min-width: 600px;
+
+}
+body{
+    height: 100%;
+}
+
+#videoWrapper{
+    width: 100%;
+    text-align: center;
+}
+#videoWrapper h2{
+    margin-bottom:  0.75em;
+}
+
+@media screen and  (max-width: 670px)  {
+    main{
+        text-align: center;
+        text-wrap: pretty;
+    }
+}
